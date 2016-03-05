@@ -1,4 +1,9 @@
-#include <windows.h>
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <string.h>
+#include <sys/mman.h>
+#endif
 #include <set>
 #include <array> 
 #include "urmem.hpp"
