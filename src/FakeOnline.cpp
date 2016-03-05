@@ -8,8 +8,8 @@
 #include <array> 
 #include "urmem.hpp"
 
-#include "SDK\amx\amx.h"
-#include "SDK\plugincommon.h"
+#include "SDK/amx/amx.h"
+#include "SDK/plugincommon.h"
 
 using namespace std;
 using namespace urmem;
