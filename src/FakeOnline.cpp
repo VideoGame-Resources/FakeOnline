@@ -30,7 +30,7 @@ public:
 #ifdef _WIN32
 		{ 0x497D70, 0x497ED1, 0x497FE8 };
 #else
-		{ 0xD3573, 0x36F5, 0x38B0 };
+		{ 0xD3573, 0xD36F5, 0xD38B0 };
 #endif
 
 		_hook_cplayerpool__getplayercount[0]
